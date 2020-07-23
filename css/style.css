@@ -255,6 +255,9 @@ footer .footer-main-content{
 }
 
 @media(max-width: 768px){
+    header{
+        background:url(../img/bg-hero-mobile.svg);
+    }
     .logo{
         width: 250px;
     }
