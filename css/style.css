@@ -71,7 +71,9 @@ ul{
 .p-t-15{
 	padding-top: 15px;
 }
-
+.p-3{
+    padding-left: 5px;
+}
 
 
 header{
@@ -257,6 +259,7 @@ footer .footer-main-content{
 @media(max-width: 768px){
     header{
         background:url(../img/bg-hero-mobile.svg);
+        background-color: var(--veryPaleCyan);
     }
     .logo{
         width: 250px;
@@ -431,6 +434,13 @@ footer .footer-main-content{
         padding: 20px 20px 0 20px;
 
     }
+    .footer-logo{
+        margin-bottom: 30px;
+    }
+    .footer-left-content>div{
+        display: flex;
+        margin-bottom: 20px;
+    }
     .footer-left-content .icon{
         padding-top: 5px;
         padding-right: 20px;
@@ -451,9 +461,6 @@ footer .footer-main-content{
 @media(max-width: 375px){
     .logo{
         width: 90%
-    }
-    .p-3{
-        padding-left: 10px
     }
     .btn-pink{
         padding: 15px 50px;
@@ -513,10 +520,6 @@ footer .footer-main-content{
     }
     footer .footer-main-content{
         grid-gap: 60px;
-    }
-    .footer-left-content>div{
-        display: flex;
-        margin-bottom: 20px;
     }
     .footer-left-content .icon{
         padding-top: 0;
